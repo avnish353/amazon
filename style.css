@@ -346,49 +346,140 @@ font-size: 0.9rem;
 }
 @media screen and (max-width: 767px) {
     .navbar{
-        width: 100%;
+        width:100% ;
         height: auto;
+        justify-content: flex-start;
+        align-items: center;
        
     }
- .nav-search{
+    .logo{
+        font-size: small;
+        transform: scale(0.7);
+        height: 30px;
+        width: 50px;   
+    }
+   .local-add  {
     width: 50%;
-    height: auto;
-    align-content:normal;
+        font-size: 0.5rem;
+        font-weight: 300;
+    }
+    .global-add {
+        font-size: 0.5rem;
+        font-weight: 300;
+    }
+ .nav-search{
+    width: 35%;
+    font-size: smaller;
+    transform: scale(0.45);
+    
+    
  }
- .search-input{
-    height: 34px;
-    font-size: 1rem;
+ span{
+    font-size: 0.5rem;
+ }
+ .nav-second{
+    font-size: 0.6rem;
+    font-weight: 500;
  }
     .panel{
         flex-direction:row;
-        height: auto;
-        justify-items: auto;
+        height: 110px;
+        justify-items: flex-start;
+        align-items:flex-start;
     }
+    
+    .panel-all{
+    font-size: 0.8rem;
+    }
+    .panel-all i{
+        font-size: 0.9rem;
+    }
+
+    .panel-deals{
+    font-size: 0.8rem;
+    font-weight: 600;
+}
     .nav-cart i{
         font-size: medium;
         font-weight: 600;
     }
     .shop-section{
         flex-direction: row;
-    height: 1800px;
+    height: 1000px;
     
+}
+.hero-section{
+    height: 200px;
+}
+.hero-msg{
+    height: 35px;
+    font-size: 0.58rem;
+}
+h3{
+    font-size: small;
+}
+.box h3{
+    margin: 0px 0px 0px 6px;
+}
+
+.box a{
+    margin-left: 6px;
+    font-size: smaller;
+}
+
+.box-img{
+   height: 50px;
+    width: 70px;   
+}
+.box3-img{
+width: 140px;
+height: 110px;
+margin: 30px 10px 10px 10px;
+
 }
 .box{
     width: 40%;
-    height: 400px;
+    height: 220px;
     justify-content: space-evenly;
     align-content: space-evenly;
 }
-.box3-img{
-    width: 280px;
-    height: 265px;
-}
+
 .box3{
-    height: 380px;
-    
+    height: 220px;  
+    padding: 0px 0px 0px 0px;  
+    flex-direction: column;
+    justify-content: flex-start;
 }
-.box3 a{
-    display: flex;
+.foot-panel2{
+    padding: 20px 0px 10px;
 }
+ul a{
+    font-size: 0.70rem;
+}
+ul{
+    padding-left: 15px;
+}
+.foot-panel3{
+    padding-right: 30px;
+    height: 100px;
+justify-content:flex-start;
+}
+.logo2{
+   height: 120px;
+    width: 250px;
+    transform: scale(0.58);
+    font-size:medium;
+}
+.foot-panel3 select{
+    margin-top: 30px;
+    height: 40px;
+    width: 100px;
+}
+.foot-panel4{
+    height: 55px;
+    font-size: 0.6rem;
+}
+}
+
 
 
