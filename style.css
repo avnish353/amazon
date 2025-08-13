@@ -344,48 +344,63 @@ font-size: 0.9rem;
     color: white;
     margin-right: 20px;
 }
-@media screen and (max-width: 767px) {
+@media screen and (max-width: 768px) {
     .navbar{
-        width:100% ;
-        height: auto;
-        justify-content: flex-start;
-        align-items: center;
-       
+      width: 100%;
+      height: auto;
+      justify-content: space-evenly;
+      align-items: center;
     }
     .logo{
         font-size: small;
-        transform: scale(0.7);
+        transform: scale(0.9);
         height: 30px;
         width: 50px;   
     }
    .local-add  {
     width: 50%;
-        font-size: 0.5rem;
-        font-weight: 300;
+        font-size: 0.8rem;
+        font-weight: 500;
     }
     .global-add {
-        font-size: 0.5rem;
-        font-weight: 300;
+        font-size: 0.8rem;
+        font-weight: 500;
     }
- .nav-search{
-    width: 35%;
+.nav-search{
+    width: 25%;
     font-size: smaller;
-    transform: scale(0.45);
-    
-    
+    transform: scale(0.6);
+    margin: 0.1px;
+    justify-content: flex-start;
+    align-content: flex-start;
+}
+ .search-input{
+      width: 80px;
+    height: 36px;
+    font-size: 0.6rem;
+    font-weight: 700;
  }
  span{
-    font-size: 0.5rem;
+    font-size: 0.6rem;
  }
  .nav-second{
     font-size: 0.6rem;
-    font-weight: 500;
+    font-weight: 400;
  }
+ .nav-cart {
+        font-size: smaller;
+        font-weight: 600;
+        align-items: center;
+    }
+    .nav-cart i{
+        font-size: 1.7rem;
+    }
     .panel{
+        width: 100%;
         flex-direction:row;
-        height: 110px;
-        justify-items: flex-start;
-        align-items:flex-start;
+        height: auto;
+        justify-content: center;
+        align-items:center;
     }
     
     .panel-all{
@@ -399,11 +414,10 @@ font-size: 0.9rem;
     font-size: 0.8rem;
     font-weight: 600;
 }
-    .nav-cart i{
-        font-size: medium;
-        font-weight: 600;
-    }
+    
     .shop-section{
+        width: 100%;
+        height: auto;
         flex-direction: row;
     height: 1000px;
     
@@ -414,6 +428,7 @@ font-size: 0.9rem;
 .hero-msg{
     height: 35px;
     font-size: 0.58rem;
+    padding-left: 3px;
 }
 h3{
     font-size: small;
@@ -480,6 +495,7 @@ justify-content:flex-start;
     font-size: 0.6rem;
 }
 }
+
 
 
 
