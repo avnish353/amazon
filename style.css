@@ -378,6 +378,9 @@ font-size: 0.9rem;
     font-size: 0.6rem;
     font-weight: 700;
  }
+   .search-icon{
+    height: auto;
+ }
  span{
     font-size: 0.6rem;
  }
@@ -493,6 +496,7 @@ justify-content:flex-start;
     font-size: 0.6rem;
 }
 }
+
 
 
 
