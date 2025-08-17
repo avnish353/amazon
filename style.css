@@ -365,7 +365,7 @@ font-size: 0.9rem;
         font-weight: 500;
     }
 .nav-search{
-    width: 30%;
+    width: 33%;
     font-size: smaller;
     transform: scale(0.6);
     margin: 0.1px;
@@ -379,8 +379,7 @@ font-size: 0.9rem;
     font-weight: 700;
  }
  .search-icon{
-    height: 38px;
-   width:40px;
+    height: auto;
  }
  span{
     font-size: 0.6rem;
