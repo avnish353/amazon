@@ -379,7 +379,9 @@ font-size: 0.9rem;
     font-size: 0.6rem;
     font-weight: 700;
  }
-   
+   .search-icon{
+height:38px;
+}
  span{
     font-size: 0.6rem;
  }
