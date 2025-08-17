@@ -367,7 +367,7 @@ font-size: 0.9rem;
 .nav-search{
     width: 33%;
     font-size: smaller;
-    transform: scale(0.6);
+    transform: scale(0.4);
     margin: 0.1px;
     justify-content:left;
     align-content: flex-start;
