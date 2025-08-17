@@ -367,19 +367,19 @@ font-size: 0.9rem;
 .nav-search{
     width: 33%;
     font-size: smaller;
-    transform: scale(0.4);
+    transform: scale(0.6);
     margin: 0.1px;
     justify-content:left;
     align-content: flex-start;
 }
  .search-input{
       width: 80px;
-    height: 33px;
+    height: auto;
     font-size: 0.6rem;
     font-weight: 700;
  }
  .search-icon{
-    height: auto;
+    height: auto ;
  }
  span{
     font-size: 0.6rem;
