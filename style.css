@@ -366,7 +366,6 @@ font-size: 0.9rem;
     }
 .nav-search{
     width: 30%;
-    height: auto;
     font-size: smaller;
     transform: scale(0.6);
     margin: 0.1px;
@@ -375,13 +374,13 @@ font-size: 0.9rem;
 }
  .search-input{
       width: 80px;
-    height: 36px;
+    height: 40px;
     font-size: 0.6rem;
     font-weight: 700;
  }
-   .search-icon{
-height:40px;
-}
+ .search-icon{
+    height: 40px;
+ }
  span{
     font-size: 0.6rem;
  }
@@ -497,6 +496,7 @@ justify-content:flex-start;
     font-size: 0.6rem;
 }
 }
+
 
 
 
