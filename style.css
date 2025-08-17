@@ -56,7 +56,7 @@ margin: 6px 3px 5px 0px;
 }
 .search-icon{
     width: 40px;
-    height: 38px;
+    height: 36px;
     background-color: #febd68;
     display: flex;
     justify-content: center;
@@ -365,8 +365,8 @@ font-size: 0.9rem;
         font-weight: 500;
     }
 .nav-search{
-    width: 32%;
-    height: 38px;
+    width: 30%;
+    height: auto;
     font-size: smaller;
     transform: scale(0.6);
     margin: 0.1px;
