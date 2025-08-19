@@ -401,7 +401,7 @@ font-size: 0.9rem;
         flex-direction:row;
         height: auto;
         justify-content: flex-start;
-        align-items:flex-start;
+        align-items:center;
     }
     
     .panel-all{
