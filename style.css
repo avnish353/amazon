@@ -396,12 +396,12 @@ font-size: 0.9rem;
     .nav-cart i{
         font-size: 1.7rem;
     }
-    .panel{
+   .panel{
         width: 100%;
         flex-direction:row;
         height: auto;
-        justify-content: center;
-        align-items:center;
+        justify-content: flex-start;
+        align-items:flex-start;
     }
     
     .panel-all{
@@ -496,6 +496,7 @@ justify-content:flex-start;
     font-size: 0.6rem;
 }
 }
+
 
 
 
