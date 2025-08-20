@@ -366,6 +366,7 @@ font-size: 0.9rem;
     }
 .nav-search{
     width: 30%;
+    text-align: left;
     font-size: smaller;
     transform: scale(0.6);
     margin: 0.1px;
